@@ -55,7 +55,7 @@ def main():
 
     dataset_url =  'https://raw.githubusercontent.com/sydney-machine-learning/GANclassimbalanced/main/DATASETS/abalone_csv.csv'
     download_url(dataset_url, '.')
-    Abalone_df  = pd.read_csv('D:/Projects/Internship UNSW/abalone_csv.csv')
+    Abalone_df  = pd.read_csv('./abalone_csv.csv')
 
     #print(Abalone_df.Class_number_of_rings.size)
     option = int(input('Type the number of Abalone classes needed: '))

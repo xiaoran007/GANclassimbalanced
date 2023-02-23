@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline if not use notebook
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
